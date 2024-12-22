@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Font_03_Montserrat/') format('woff2'),
+         url('../fonts/Font_03_Montserrat/MontserratLight.woff') format('woff'),
+         url('../fonts/Font_03_Montserrat/MontserratLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Font_03_Montserrat/MontserratThin.woff2') format('woff2'),
+         url('../fonts/Font_03_Montserrat/MontserratThin.woff') format('woff'),
+         url('../fonts/Font_03_Montserrat/MontserratThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Font_04_Nunito/NunitoExtraLight.woff2') format('woff2'),
+         url('../fonts/Font_04_Nunito/NunitoExtraLight.woff') format('woff'),
+         url('../fonts/Font_04_Nunito/NunitoExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+    --orange: #FF9E58;
+    --white: #F5F5F5;
+    --gray: #2F2E2E;
+    --black: #1E1E1E;
+    --gap:5px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    font-family: 'Montserrat', "Nunito", "Arial", serif;
+    color: var(--white);
+    background-color: var(--gray);
+}
+
+.section{
+    padding: 0 calc(var(--gap) * 3);
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.footer{
+    padding: 0 calc(var(--gap) * 3);
+}
